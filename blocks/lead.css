@@ -7,7 +7,6 @@
 
 .lead__title {
   font-family: "Inter";
-  font-style: normal;
   text-align: center;
   margin: 0 0 16px;
   font-weight: 900;
@@ -18,7 +17,6 @@
 
 .lead__subtitle {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
