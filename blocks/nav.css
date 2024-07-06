@@ -1,14 +1,13 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-  .nav img {
-    width: 188px;
-  }
- 
+.nav img {
+  width: 188px;
+}
 
 /* Tablet */
 @media (min-width: 768px) {
@@ -19,7 +18,3 @@
     width: 254px;
   }
 }
-
-
-
-  
