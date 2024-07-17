@@ -34,11 +34,15 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26.06px;
-  margin: 32px 0 0;
+  margin: 32px 0 38px;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
+  .intro{
+    margin-top: 90px;
+    margin-bottom: 64px;
+  } 
   .intro__title {
     font-weight: 900;
     font-size: 45px;
@@ -54,12 +58,19 @@
   .intro__quote-author {
     margin-right: 0.6rem;
   }
+
+  .intro__paragraph {
+    margin-bottom: 0;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1280px) {
   .intro {
     max-width: 830px;
+    margin-left: 148px;
+    margin-top: 92px;
+    margin-bottom: 118px;
     padding: 0;
   }
 
@@ -75,5 +86,6 @@
 
   .intro__paragraph {
     max-width: 722px;
+    margin-bottom: 0;
   }
 }
